@@ -99,7 +99,7 @@ Detailed project documentation is available in the `docs/` directory:
 3. **Database Implementation** – PostgreSQL implementation details.
 4. **Data Dictionary** – Table and column definitions.
 5. **Design Decisions** – Technical decisions, assumptions, and limitations.
-
+6. **Environment Setup** – Development environment configuration and reproduction guide.
 ## Scope and Future Improvements
 
 The current project focuses on relational database design and implementation.

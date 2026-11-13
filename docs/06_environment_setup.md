@@ -142,3 +142,28 @@ The general loading workflow was:
 5. Validate record counts and relationships.
 
 The schema definition
+The schema definition is available in `sql/telecom_database_design.sql`.
+
+**Note:** The current SQL script contains the database structure definition. The data-loading workflow was performed separately during implementation and is not yet packaged as a fully automated loading script.
+
+## 8. Validation Results
+
+After implementation and data loading, the following checks were performed:
+
+- Record counts were checked across all seven project tables.
+- Orphan records were checked in relationship tables.
+- Service subscription counts were compared against the source dataset.
+
+The validation results matched the expected source data counts, and all six orphan-record checks returned zero records.
+
+## 9. Reproducibility Notes
+
+To recreate the database environment:
+
+1. Install the required database software.
+2. Create the PostgreSQL role, database, and schema.
+3. Execute the database SQL script.
+4. Load the source dataset using the documented staging workflow.
+5. Run the validation queries.
+
+Some environment-specific installation steps may vary depending on the operating system and software package sources.
