@@ -46,7 +46,6 @@ The database is organized around the following entities:
 The design includes one-to-many and many-to-many relationships to represent customer subscriptions, available plans, and subscribed services.
 
 ## Repository Structure
-
 ```text
 telecom-database-design/
 ├── data/
@@ -58,12 +57,13 @@ telecom-database-design/
 │   ├── 02_database_design.md
 │   ├── 03_database_implementation.md
 │   ├── 04_data_dictionary.md
-│   └── 05_design_decisions.md
+│   ├── 05_design_decisions.md
+│   └── 06_environment_setup.md
 ├── sql/
 │   └── telecom_database_design.sql
+├── .gitignore
 └── README.md
 ```
-
 ## Dataset
 
 The project uses the IBM Telco Customer Churn dataset, containing 7,043 customer records.
